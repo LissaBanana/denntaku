@@ -106,7 +106,7 @@ class ViewController: UIViewController {
     @IBAction func equal(){
         
         
-        //
+        
     }
     
 }
