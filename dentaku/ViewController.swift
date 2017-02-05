@@ -4,7 +4,7 @@
 //
 //  Created by 鋤柄里紗 on 2017/02/05.
 //  Copyright © 2017年 鋤柄里紗. All rights reserved.
-//
+/////
 
 import UIKit
 
@@ -106,7 +106,7 @@ class ViewController: UIViewController {
     @IBAction func equal(){
         
         
-        
+        //
     }
     
 }
