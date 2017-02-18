@@ -32,9 +32,7 @@ class ViewController: UIViewController {
     @IBAction func one(){
         number = number*10 + 1
         label.text = String(number)
-        number2 = number*10 + 1
-        label.text = String(number)
-         
+        
 
     }
     @IBAction func two(){
@@ -84,11 +82,13 @@ class ViewController: UIViewController {
     
     @IBAction func plus(){
         number = number + 1
+        number = number2
        
     }
     
     @IBAction func minus(){
         number = number - 1
+        number = number2
             }
     
     @IBAction func kakeru(){
@@ -106,8 +106,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equal(){
-        number = number + number2
-        number = number - number2
+        number3 = number + number2
+        number3 = number - number2
+        
     }
 
         
